@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Barlow Condensed medium';
+    src: url('../src/fonts/BarlowCondensed-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Barlow Condensed';
+    src: url('../src/fonts/BarlowCondensed-Thin.ttf') format('truetype');
+  }
+
+.destination {
+    display: flex;
+    flex-direction: column;
+
+
+    background-image: url("/images/Bitmap1.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .box{
+    height: 800px;
+    width: 600px;
+    margin-top: 76px;
+  }
+
+  .h{
+    display: flex;
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .num{
+
+    margin-right: 28px;
+    margin-left: 166px;
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    
+    letter-spacing: 4.725px;
+    
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.moon {
+    background-image: url("/images/Moon.svg");
+    margin-left: 200px;
+    margin-top: 97px;
+
+    width: 445px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    animation: rotate 50s infinite linear;
+  
+}
+
+
+.infocontainer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    margin-bottom: 670px; 
+  }
+  
+
+.bar{
+    display: flex;
+    margin-right: 700px;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+
+    // font-family: 'Barlow Condensed';
+    // font-style: normal;
+    // font-weight: 400;
+    // font-size: 16px;
+    // line-height: 19px;
+    // letter-spacing: 2.7px;
+
+    // color: #D0D6F9;
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+
+}
