@@ -1,4 +1,5 @@
 import '../Body.scss';
+import { NavLink } from 'react-router-dom';
 
 export const Body = () => {
   return (
@@ -13,11 +14,11 @@ export const Body = () => {
           experience!
         </p>
       </div>
-      <a>
+      <NavLink to="/destination">
         <div className="white-circle">
           <div className="btntext">EXPLORE</div>
         </div>
-      </a>
+      </NavLink>
     </div>
   );
 };

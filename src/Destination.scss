@@ -8,6 +8,11 @@
     src: url('../src/fonts/BarlowCondensed-Thin.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Bellefair';
+    src: url('../src/fonts/Bellefair-Regular.ttf') format('truetype');
+  }
+
 .destination {
     display: flex;
     flex-direction: column;
@@ -89,7 +94,8 @@
     right: 0;
     bottom: 0;
     
-    margin-bottom: 670px; 
+    margin-bottom: 370px; 
+    margin-right: -200px;
   }
   
 
@@ -102,21 +108,93 @@
     background-color: transparent;
     border: none;
 
-    // font-family: 'Barlow Condensed';
-    // font-style: normal;
-    // font-weight: 400;
-    // font-size: 16px;
-    // line-height: 19px;
-    // letter-spacing: 2.7px;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
 
-    // color: #D0D6F9;
-    font-family: 'Barlow Condensed';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 2.7px;
+  color: #D0D6F9;
+}
 
-color: #FFFFFF;
 
+.planets{
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 115px;
+  /* identical to box height */
+  text-transform: uppercase;
+  margin-top: 37px;
+
+
+  color: #FFFFFF;
+}
+
+.info{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+
+  width: 444px;
+  height: 128px;
+
+  color: #D0D6F9;
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  // margin-top: 54px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-right: 444px solid;
+  position: absolute;
+  left: 1px;
+  top: 382px;
+  border-radius: 0;
+  
+  background: #383B4B;
+}
+
+
+// .distance{
+// margin-top: 28px;
+// }
+
+.distinfo{ 
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+
+  color: #D0D6F9;
+}
+
+.km{
+  margin-top: 12px;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.ttravel{
+  margin-right: 100px;
 }

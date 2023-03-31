@@ -1,4 +1,3 @@
-
   .header {
     display: flex;
 
@@ -67,6 +66,14 @@
   padding: 10px;
   color: #ffffff;
   position: relative;
+
+  text-decoration: none;
+
+}
+
+.text:hover {
+  color: #c7c7c7; // change the color on hover
+  cursor: pointer; // add pointer cursor on hover
 }
 
 .text:hover::after {
@@ -77,12 +84,6 @@
   width: 100%;
   height: 3px;
   background-color: #ffffff;
-}
-
-
-.text:hover {
-  color: #c7c7c7; // change the color on hover
-  cursor: pointer; // add pointer cursor on hover
 }
 
 @font-face {
