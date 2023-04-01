@@ -84,30 +84,69 @@
     background-repeat: no-repeat;
     background-position: center center;
 
-    animation: rotate 50s infinite linear;
+    animation: rotate 48s infinite linear;
   
 }
 
+.mars {
+    background-image: url("/images/Mars.svg");
+    margin-left: 200px;
+    margin-top: 97px;
+
+    width: 445px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    animation: rotate 48s infinite linear;
+  
+}
+.europa {
+    background-image: url("/images/Europa.svg");
+    margin-left: 200px;
+    margin-top: 97px;
+
+    width: 445px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    animation: rotate 48s infinite linear;
+  
+}
+.titan {
+    background-image: url("/images/Titan.svg");
+    margin-left: 200px;
+    margin-top: 97px;
+
+    width: 445px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    animation: rotate 48s infinite linear;
+  
+}
 
 .infocontainer {
     position: absolute;
     right: 0;
     bottom: 0;
     
-    margin-bottom: 370px; 
+    margin-bottom: 260px; 
     margin-right: -200px;
   }
   
-
 .bar{
     display: flex;
     margin-right: 700px;
 }
 
-.btn{
-    background-color: transparent;
-    border: none;
 
+.btn {
+  background-color: transparent;
+  border: none;
+  position: relative;
   font-family: 'Barlow Condensed';
   font-style: normal;
   font-weight: 400;
@@ -115,8 +154,33 @@
   line-height: 19px;
   letter-spacing: 2.7px;
   text-transform: uppercase;
-
+  cursor: pointer;
   color: #D0D6F9;
+}
+
+.btn:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 0;
+  height: 2.8px;
+  background-color: white;
+  transition: width 0.4s ease-out;
+
+  border-radius: 25px;
+
+
+}
+
+.btn:hover::before,
+.btn:focus::before {
+  width: 100%;
 }
 
 
@@ -150,30 +214,29 @@
 .triangle {
   height: 0;
   width: 0;
-  // margin-top: 54px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   border-right: 444px solid;
   position: absolute;
   left: 1px;
-  top: 382px;
+  top: 372px;
   border-radius: 0;
   
   background: #383B4B;
 }
 
 
-// .distance{
-// margin-top: 28px;
-// }
+.distance{
+    display: flexbox;
+}
 
 .distinfo{ 
   font-family: 'Barlow Condensed';
+  margin-right: 79px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
 
   letter-spacing: 2.3625px;
   text-transform: uppercase;
@@ -188,7 +251,6 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 32px;
-  /* identical to box height */
 
   text-transform: uppercase;
 
@@ -196,5 +258,13 @@
 }
 
 .ttravel{
-  margin-right: 100px;
+    display: flexbox;
+    margin-right: 100px;
+}
+
+.infoblock{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+
 }

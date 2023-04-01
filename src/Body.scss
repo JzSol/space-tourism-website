@@ -1,8 +1,6 @@
 .body {
     flex: 1;
     display: flex;
-
-    // align-items: center;
     font-size: 24px;
   }
 
@@ -50,7 +48,6 @@
     margin-bottom: 2px;
   }
 
-
   .p-1{
     font-family: 'Barlow';
     font-style: normal;
@@ -65,41 +62,88 @@
 
 }
 
+// .explorebtn {
+//   text-decoration: none;
+//   // margin-left: 0;
+//   width: 50px;
+//   height: 300px;
+// }
+
+
+// .white-circle {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 330px;
+//     height: 330px;
+//     border-radius: 50%;
+//     background-color: white;
+//     margin: 311px 0 0 630px;
+//     transition: all 0.9s ease;
+
+
+//   }
+
+//   .white-circle:hover {
+//     transform: scale(1.1);
+//   }
+
+
+//   .btntext {
+//     display: flex;
+//     color: #3D3D3D;
+//     text-transform: uppercase;
+//     font-family: 'Bellefair-Regular';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 32px;
+//     line-height: 37px;
+//     letter-spacing: 10px;
+
+//     text-decoration: none; /* added */
+//   }
+  
+.explorebtn {
+  position: relative;
+  width: 330px;
+  height: 330px;
+}
+
 .white-circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 330px;
-    height: 330px;
-    border-radius: 50%;
-    background-color: white;
-    margin: 311px 0 0 630px;
-    transition: all 0.9s ease;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 311px 0 0 630px;
+  transition: all 0.9s ease;
+}
 
-  .white-circle:hover {
-    transform: scale(1.1);
-  }
+.white-circle:hover {
+  transform: scale(1.1);
+}
 
+.btntext {
+  display: flex;
+  color: #3D3D3D;
+  text-transform: uppercase;
+  font-family: 'Bellefair-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 10px;
+  text-decoration: none;
+}
 
-  .btntext {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color: #3D3D3D;
-    text-transform: uppercase;
+.explorebtn > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
 
-    font-family: 'Bellefair-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 37px;
-
-    letter-spacing: 10px;
-    // text-decoration: none;
-  }
   

@@ -14,11 +14,13 @@ export const Body = () => {
           experience!
         </p>
       </div>
-      <NavLink to="/destination">
-        <div className="white-circle">
-          <div className="btntext">EXPLORE</div>
-        </div>
-      </NavLink>
+      <div>
+        <NavLink to="/destination" className="explorebtn">
+          <div className="white-circle">
+            <div className="btntext">explore</div>
+          </div>
+        </NavLink>
+      </div>
     </div>
   );
 };
