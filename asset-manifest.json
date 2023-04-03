@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/space-tourism-website/static/css/main.ef412282.css",
+    "main.css": "/space-tourism-website/static/css/main.4264af11.css",
     "main.js": "/space-tourism-website/static/js/main.80884481.js",
     "static/media/Europa.svg": "/space-tourism-website/static/media/Europa.bdd54a9d16b22a70d5c8.svg",
     "static/media/Moon.svg": "/space-tourism-website/static/media/Moon.c6441c7ca2abacb76534.svg",
@@ -8,18 +8,18 @@
     "static/media/Mars.svg": "/space-tourism-website/static/media/Mars.3980c18233cf8e9c128c.svg",
     "static/media/Bitmap1.jpg": "/space-tourism-website/static/media/Bitmap1.13ee2566a38364d660dc.jpg",
     "static/media/Bitmap.jpg": "/space-tourism-website/static/media/Bitmap.d2ae6c1366be072a8f4b.jpg",
+    "static/media/IpadBitmap.jpg": "/space-tourism-website/static/media/IpadBitmap.eaef298aa68be01f6026.jpg",
     "static/media/BarlowCondensed-Bold.ttf": "/space-tourism-website/static/media/BarlowCondensed-Bold.0024e9ddb68d8cd9114a.ttf",
     "static/media/BarlowCondensed-Regular.ttf": "/space-tourism-website/static/media/BarlowCondensed-Regular.e2847b85cf0aa5aa77a9.ttf",
     "static/media/BarlowCondensed-Thin.ttf": "/space-tourism-website/static/media/BarlowCondensed-Thin.39f4e9d398de16d57577.ttf",
     "static/media/Bellefair-Regular.ttf": "/space-tourism-website/static/media/Bellefair-Regular.7613fa231fde5788e55c.ttf",
     "index.html": "/space-tourism-website/index.html",
     "static/media/Group 2.svg": "/space-tourism-website/static/media/Group 2.df9d0da489d48eb48d7e.svg",
-    "static/media/Rectangle.svg": "/space-tourism-website/static/media/Rectangle.d85ebbc1ca676e552206.svg",
-    "main.ef412282.css.map": "/space-tourism-website/static/css/main.ef412282.css.map",
+    "main.4264af11.css.map": "/space-tourism-website/static/css/main.4264af11.css.map",
     "main.80884481.js.map": "/space-tourism-website/static/js/main.80884481.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef412282.css",
+    "static/css/main.4264af11.css",
     "static/js/main.80884481.js"
   ]
 }
