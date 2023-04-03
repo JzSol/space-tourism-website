@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/space-tourism-website/static/css/main.4264af11.css",
+    "main.css": "/space-tourism-website/static/css/main.9608fc3a.css",
     "main.js": "/space-tourism-website/static/js/main.80884481.js",
     "static/media/Europa.svg": "/space-tourism-website/static/media/Europa.bdd54a9d16b22a70d5c8.svg",
     "static/media/Moon.svg": "/space-tourism-website/static/media/Moon.c6441c7ca2abacb76534.svg",
@@ -15,11 +15,11 @@
     "static/media/Bellefair-Regular.ttf": "/space-tourism-website/static/media/Bellefair-Regular.7613fa231fde5788e55c.ttf",
     "index.html": "/space-tourism-website/index.html",
     "static/media/Group 2.svg": "/space-tourism-website/static/media/Group 2.df9d0da489d48eb48d7e.svg",
-    "main.4264af11.css.map": "/space-tourism-website/static/css/main.4264af11.css.map",
+    "main.9608fc3a.css.map": "/space-tourism-website/static/css/main.9608fc3a.css.map",
     "main.80884481.js.map": "/space-tourism-website/static/js/main.80884481.js.map"
   },
   "entrypoints": [
-    "static/css/main.4264af11.css",
+    "static/css/main.9608fc3a.css",
     "static/js/main.80884481.js"
   ]
 }
