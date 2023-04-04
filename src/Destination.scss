@@ -16,6 +16,7 @@
 .destination {
     display: flex;
     flex-direction: column;
+    position: fixed;
 
 
     background-image: url("/images/Bitmap1.jpg");
@@ -25,11 +26,15 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .container{
+    display: flex;
+    justify-content: space-between;
+
+  }
 
   .box{
     height: 800px;
     width: 600px;
-    margin-top: 76px;
   }
 
   .h{
@@ -76,16 +81,16 @@
 
 .moon {
     background-image: url("/images/Moon.svg");
-    margin-left: 200px;
-    margin-top: 97px;
+    margin-left: 37%;
+    margin-top: 10%;
 
     width: 445px;
     height: 445px;
+
     background-repeat: no-repeat;
     background-position: center center;
 
     animation: rotate 48s infinite linear;
-  
 }
 
 .mars {
@@ -129,31 +134,28 @@
 }
 
 .infocontainer {
-    position: absolute;
+    position: fixed;
     right: 0;
-    bottom: 0;
     
-    margin-bottom: 260px; 
-    margin-right: -200px;
-  }
-  
-.bar{
-    display: flex;
-    margin-right: 700px;
-}
+    height: 47vw;
+    width: 35vw; 
 
+    margin-top: 9%;
+  }
 
 .btn {
   background-color: transparent;
   border: none;
   position: relative;
-  font-family: 'Barlow Condensed';
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 19px;
   letter-spacing: 2.7px;
+
+  font-family: 'Barlow Condensed';
+  font-style: normal;
   text-transform: uppercase;
+  
   cursor: pointer;
   color: #D0D6F9;
 }
@@ -174,8 +176,6 @@
   transition: width 0.4s ease-out;
 
   border-radius: 25px;
-
-
 }
 
 .btn:hover::before,
@@ -183,88 +183,33 @@
   width: 100%;
 }
 
-
-.planets{
-  font-family: 'Bellefair';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 100px;
-  line-height: 115px;
-  /* identical to box height */
-  text-transform: uppercase;
-  margin-top: 37px;
-
-
-  color: #FFFFFF;
-}
-
-.info{
-  font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-
-  width: 444px;
-  height: 128px;
-
-  color: #D0D6F9;
-}
-
-.triangle {
-  height: 0;
-  width: 0;
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  border-right: 444px solid;
-  position: absolute;
-  left: 1px;
-  top: 372px;
-  border-radius: 0;
-  
-  background: #383B4B;
-}
-
-
-.distance{
-    display: flexbox;
-}
-
-.distinfo{ 
-  font-family: 'Barlow Condensed';
-  margin-right: 79px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-
-  letter-spacing: 2.3625px;
-  text-transform: uppercase;
-
-  color: #D0D6F9;
-}
-
-.km{
-  margin-top: 12px;
-  font-family: 'Bellefair';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-
-  text-transform: uppercase;
-
-  color: #FFFFFF;
-}
-
 .ttravel{
     display: flexbox;
     margin-right: 100px;
 }
 
-.infoblock{
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 80px;
+@media (max-width: 904px) {
+ 
+  .planets{
+  margin-left: 24%;
+  width:fit-content;
+  background-size: contain;
+  }
 
+  .container{
+    display: flex;
+    align-items: flex-start;
+  }
+  .box{
+    margin-left: -16%;
+    height: 30vw;
+  }
+  .infocontainer{
+    // display: none;
+
+
+    position: absolute;
+    width: 80%;
+    margin-top: 80vw;
+  }
 }

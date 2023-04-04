@@ -1,3 +1,4 @@
+import '../../Planet.scss';
 export const Europa = () => {
   return (
     <>
@@ -10,6 +11,7 @@ export const Europa = () => {
       </p>
 
       <div className="triangle"></div>
+
       <div className="infoblock">
         <div className="distance">
           <div className="distinfo">AVG. DISTANCE</div>

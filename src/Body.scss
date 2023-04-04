@@ -1,15 +1,18 @@
 .body {
     flex: 1;
     display: flex;
+
     font-size: 24px;
+    // position: fixed;
+  margin-bottom: 13vw;
+
+
   }
 
   .textblock{
-    display: grid;
-    margin-left: 265px;
-    margin-bottom: 131px;
-    margin-top: 280px;
-
+    margin-left: 16.5vw;
+    // margin-bottom: 13vw;
+    width: 20vw;
   }
 
   @font-face {
@@ -22,6 +25,8 @@
   }
 
   .par-1{
+    position: relative;
+
     font-family: 'BarlowCondensed-Regular';
     font-style: normal;
     font-weight: 400;
@@ -35,6 +40,8 @@
   }
 
   .h-1{
+    position: relative;
+
     font-family: 'Bellefair-Regular';
     font-style: normal;
     font-weight: 400;
@@ -49,6 +56,8 @@
   }
 
   .p-1{
+    position: relative;
+
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
@@ -62,62 +71,19 @@
 
 }
 
-// .explorebtn {
-//   text-decoration: none;
-//   // margin-left: 0;
-//   width: 50px;
-//   height: 300px;
-// }
-
-
-// .white-circle {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 330px;
-//     height: 330px;
-//     border-radius: 50%;
-//     background-color: white;
-//     margin: 311px 0 0 630px;
-//     transition: all 0.9s ease;
-
-
-//   }
-
-//   .white-circle:hover {
-//     transform: scale(1.1);
-//   }
-
-
-//   .btntext {
-//     display: flex;
-//     color: #3D3D3D;
-//     text-transform: uppercase;
-//     font-family: 'Bellefair-Regular';
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 32px;
-//     line-height: 37px;
-//     letter-spacing: 10px;
-
-//     text-decoration: none; /* added */
-//   }
-  
-.explorebtn {
-  position: relative;
-  width: 330px;
-  height: 330px;
-}
 
 .white-circle {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-left: 72%;
+  margin-top: 20%;
+
   width: 330px;
   height: 330px;
   border-radius: 50%;
   background-color: white;
-  margin: 311px 0 0 630px;
   transition: all 0.9s ease;
 }
 
@@ -146,4 +112,16 @@
   bottom: 0;
 }
 
-  
+@media (max-width: 904px) {
+  .textblock{
+    // margin-top: 24%;
+    // width: 50vw;
+    height: 106vw;
+    margin-left: 29vw;
+  }
+
+  .white-circle{
+    margin-top: 86vw;
+    margin-left: 32vw;
+  }
+}

@@ -3,41 +3,57 @@ $font-barlow-condensed-medium: 'Barlow Condensed medium', sans-serif;
 $color-white: #FFFFFF;
 $color-hover: #c7c7c7;
 
+
+
 .header {
   display: flex;
-  top: 0;
-  left: 0;
+  align-items: center; 
+
   width: 100%;
   height: 100px;
+  padding: 0 20px;
   margin-top: 40px;
   margin-left: 55px;
 }
 
 .star {
+  display: flex;
+  justify-content: flex-start;
+  
   background-image: url("/images/Logo/Group 2.svg");
   width: 48px;
   height: 48px;
-  margin-right: 10px;
-  margin-top: 24px;
+  // margin-left: 80px;
+  margin-right: 64px;
 }
 
+
+
 .rectangle {
-  background-image: url("/images/Logo/Rectangle.svg");
-  width: 860px;
-  height: 1px;
-  margin-left: 64px;
-  margin-right: 300px;
-  margin-top: 48px;
+  position: relative;
+  width: 40%;
+  height: 1.2px;
+  border-radius: 0;
+
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+
+  margin-right: -5%;
+
+  @media (max-width: 1289px) {
+  width: 40%;
+}
 }
 
 .blurred-rectangle {
-  
+  display: flex;
+  justify-content: flex-start;
+
   background-color: rgba($color-white, 0.1);
   backdrop-filter: blur(40px);
-  width: 983px;
+  width: 58%;
   height: 96px;
-  margin-top: 0;
-  margin-left: -400px;
 }
 
 .nav {
@@ -47,6 +63,7 @@ $color-hover: #c7c7c7;
   align-items: center;
   height: 65%;
   padding: 0 200px 0 50px;
+  width: 70%;
 }
 
 .nav li {
@@ -89,4 +106,29 @@ $color-hover: #c7c7c7;
   line-height: 19px;
   letter-spacing: 2.7px;
   color: $color-white;
+}
+
+@media (max-width: 904px) {
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 38px;
+  }
+  .blurred-rectangle{
+    display: flex;
+    justify-self: start;
+
+    width: 66%;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+  }
+
+  .rectangle{display: none;}
+  .number{display: none;}
+  .text{font-family: $font-barlow-condensed;}
+
 }

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const Body = () => {
   return (
     <div className="body">
-      <div className="textblock ">
+      <div className="textblock">
         <div className="par-1">So you want to travel to</div>
         <h1 className="h-1">space</h1>
         <p className="p-1">

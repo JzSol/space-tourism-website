@@ -1,0 +1,88 @@
+
+.planets{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    /* identical to box height */
+    text-transform: uppercase;
+    margin-top: 37px;
+  
+  
+    color: #FFFFFF;
+  }
+
+.info{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  
+    width: 444px;
+    height: 128px;
+  
+    color: #D0D6F9;
+  }
+  
+  .triangle {
+    height: 0;
+    width: 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-right: 444px solid;
+    position: absolute;
+    left: 1px;
+    top: 372px;
+    border-radius: 0;
+    
+    background: #383B4B;
+  }
+
+  .infoblock{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+
+}
+.distance{
+    display: flexbox;
+}
+
+.distinfo{ 
+    font-family: 'Barlow Condensed';
+    margin-right: 79px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+  
+    color: #D0D6F9;
+  }
+  
+  .km{
+    margin-top: 12px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+  
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+  }
+
+  .ttravel{
+    display: flexbox;
+    margin-right: 100px;
+}
+
+.bar{
+    display: flex;
+    margin-right: 700px;
+}

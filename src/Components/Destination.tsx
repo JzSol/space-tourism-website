@@ -15,19 +15,22 @@ export const Destination: React.FC = () => {
 
   return (
     <div className="destination">
+      <Header />
+
       <div className="container">
-        <Header />
         <div className="box">
           <div className="h">
             <div className="num">01</div>Pick your destination
           </div>
-          <div
-            className={classNames('moon', {
-              mars: selectedPlanetId === 2,
-              europa: selectedPlanetId === 3,
-              titan: selectedPlanetId === 4,
-            })}
-          ></div>
+          <div className="planets">
+            <div
+              className={classNames('moon', {
+                mars: selectedPlanetId === 2,
+                europa: selectedPlanetId === 3,
+                titan: selectedPlanetId === 4,
+              })}
+            ></div>
+          </div>
         </div>
 
         <div className="infocontainer">
