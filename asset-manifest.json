@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-tourism-website/static/css/main.be8f43d1.css",
-    "main.js": "/space-tourism-website/static/js/main.c3ec4a53.js",
+    "main.css": "/space-tourism-website/static/css/main.bafc35e2.css",
+    "main.js": "/space-tourism-website/static/js/main.e0d93202.js",
     "static/media/crew.svg": "/space-tourism-website/static/media/crew.629a94d922d5c46b3d45.svg",
     "static/media/Technology.svg": "/space-tourism-website/static/media/Technology.19f4947b40da26c27d64.svg",
     "static/media/Europa.svg": "/space-tourism-website/static/media/Europa.bdd54a9d16b22a70d5c8.svg",
@@ -15,17 +15,20 @@
     "static/media/Mark.svg": "/space-tourism-website/static/media/Mark.9d0696eb8c20aa04738e.svg",
     "static/media/IpadBitmap.jpg": "/space-tourism-website/static/media/IpadBitmap.eaef298aa68be01f6026.jpg",
     "static/media/Douglas.svg": "/space-tourism-website/static/media/Douglas.2e2315e6977fd753a88f.svg",
+    "static/media/spaceport.jpg": "/space-tourism-website/static/media/spaceport.4374e0cba96f5b50a619.jpg",
+    "static/media/vehicle.jpg": "/space-tourism-website/static/media/vehicle.e2569fd59ac54af5b3f1.jpg",
+    "static/media/capsule.jpg": "/space-tourism-website/static/media/capsule.371eeb79833f77b93fda.jpg",
     "static/media/BarlowCondensed-Bold.ttf": "/space-tourism-website/static/media/BarlowCondensed-Bold.0024e9ddb68d8cd9114a.ttf",
     "static/media/BarlowCondensed-Regular.ttf": "/space-tourism-website/static/media/BarlowCondensed-Regular.e2847b85cf0aa5aa77a9.ttf",
     "static/media/BarlowCondensed-Thin.ttf": "/space-tourism-website/static/media/BarlowCondensed-Thin.39f4e9d398de16d57577.ttf",
     "static/media/Bellefair-Regular.ttf": "/space-tourism-website/static/media/Bellefair-Regular.7613fa231fde5788e55c.ttf",
     "index.html": "/space-tourism-website/index.html",
     "static/media/Group 2.svg": "/space-tourism-website/static/media/Group 2.df9d0da489d48eb48d7e.svg",
-    "main.be8f43d1.css.map": "/space-tourism-website/static/css/main.be8f43d1.css.map",
-    "main.c3ec4a53.js.map": "/space-tourism-website/static/js/main.c3ec4a53.js.map"
+    "main.bafc35e2.css.map": "/space-tourism-website/static/css/main.bafc35e2.css.map",
+    "main.e0d93202.js.map": "/space-tourism-website/static/js/main.e0d93202.js.map"
   },
   "entrypoints": [
-    "static/css/main.be8f43d1.css",
-    "static/js/main.c3ec4a53.js"
+    "static/css/main.bafc35e2.css",
+    "static/js/main.e0d93202.js"
   ]
 }
