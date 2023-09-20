@@ -1,13 +1,11 @@
 $font-barlow-condensed: 'Barlow Condensed', sans-serif;
 $font-barlow-condensed-medium: 'Barlow Condensed medium', sans-serif;
-$color-white: #FFFFFF;
+$color-white: #ffffff;
 $color-hover: #c7c7c7;
-
-
 
 .header {
   display: flex;
-  align-items: center; 
+  align-items: center;
 
   width: 100%;
   height: 100px;
@@ -19,15 +17,13 @@ $color-hover: #c7c7c7;
 .star {
   display: flex;
   justify-content: flex-start;
-  
-  background-image: url("/images/Logo/Group 2.svg");
+
+  background-image: url('/images/Logo/Group 2.svg');
   width: 48px;
   height: 48px;
   // margin-left: 80px;
   margin-right: 64px;
 }
-
-
 
 .rectangle {
   position: relative;
@@ -35,15 +31,15 @@ $color-hover: #c7c7c7;
   height: 1.2px;
   border-radius: 0;
 
-  background: #FFFFFF;
+  background: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.25;
 
   margin-right: -5%;
 
   @media (max-width: 1289px) {
-  width: 40%;
-}
+    width: 40%;
+  }
 }
 
 .blurred-rectangle {
@@ -109,26 +105,30 @@ $color-hover: #c7c7c7;
 }
 
 @media (max-width: 904px) {
-
   .header {
     display: flex;
     justify-content: space-between;
     margin-top: 0;
     margin-left: 38px;
   }
-  .blurred-rectangle{
+  .blurred-rectangle {
     display: flex;
     justify-self: start;
 
     width: 66%;
   }
-  .nav{
+  .nav {
     display: flex;
     justify-content: center;
   }
 
-  .rectangle{display: none;}
-  .number{display: none;}
-  .text{font-family: $font-barlow-condensed;}
-
+  .rectangle {
+    display: none;
+  }
+  .number {
+    display: none;
+  }
+  .text {
+    font-family: $font-barlow-condensed;
+  }
 }

@@ -1,20 +1,19 @@
 @font-face {
-    font-family: 'Barlow Condensed medium';
-    src: url('../src/fonts/BarlowCondensed-Bold.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'Barlow Condensed';
-    src: url('../src/fonts/BarlowCondensed-Thin.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'Bellefair';
-    src: url('../src/fonts/Bellefair-Regular.ttf') format('truetype');
+  font-family: 'Barlow Condensed medium';
+  src: url('../src/fonts/BarlowCondensed-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('../src/fonts/BarlowCondensed-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bellefair';
+  src: url('../src/fonts/Bellefair-Regular.ttf') format('truetype');
 }
 
-.Douglas{
-  background-image: url("/images/Douglas.svg");
+.Douglas {
+  background-image: url('/images/Douglas.svg');
   margin-left: 50%;
-
 
   position: absolute;
   width: 568.07px;
@@ -23,12 +22,10 @@
 
   background-repeat: no-repeat;
   background-position: center center;
-
 }
-.Mark{
-  background-image: url("/images/Mark.svg");
+.Mark {
+  background-image: url('/images/Mark.svg');
   margin-left: 50%;
-
 
   position: absolute;
   width: 568.07px;
@@ -36,12 +33,10 @@
 
   background-repeat: no-repeat;
   background-position: center center;
-
 }
-.Victor{
-  background-image: url("/images/Victor.svg");
+.Victor {
+  background-image: url('/images/Victor.svg');
   margin-left: 50%;
-
 
   position: absolute;
   width: 568.07px;
@@ -49,10 +44,9 @@
 
   background-repeat: no-repeat;
   background-position: center center;
-
 }
-.Anousheh{ 
-  background-image: url("/images/Anousheh.svg");
+.Anousheh {
+  background-image: url('/images/Anousheh.svg');
   margin-left: 50%;
 
   margin-bottom: -23px;
@@ -64,94 +58,93 @@
   background-position: center center;
 }
 
-.h{
-    margin-top: 3vw;
-    margin-bottom: 5vw;
+.h {
+  margin-top: 3vw;
+  margin-bottom: 5vw;
 }
 
 .CrewPage {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    background-image: url("/images/crew.svg");
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('/images/crew.svg');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.title{
-    display: flex;
-    font-family: 'Bellefair';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 37px;
-    /* identical to box height */
+.title {
+  display: flex;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    color: #FFFFFF;
+  color: #ffffff;
 
-    mix-blend-mode: normal;
-    opacity: 0.5;
-    margin-bottom: 1.2vw;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 1.2vw;
 }
 
-.name{
-    font-family: 'Bellefair';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    width: 61vw;
-    text-transform: uppercase;
+.name {
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  width: 61vw;
+  text-transform: uppercase;
 
-    color: #FFFFFF;
-    margin-bottom: 1.8vw;
+  color: #ffffff;
+  margin-bottom: 1.8vw;
 }
 
-.about{ 
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    /* or 178% */
+.about {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
 
-    width: 444px;
-    height: 128px;
+  width: 444px;
+  height: 128px;
 
-    color: #D0D6F9;
+  color: #d0d6f9;
 }
 
-.crew{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.crew {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
-    margin-left: 13vw;
+  margin-left: 13vw;
 }
 
-.Img{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-bottom: -6.9vw;
-    margin-right: 16vw;
+.Img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: -6.9vw;
+  margin-right: 16vw;
 
-    position: relative;
-
+  position: relative;
 }
 
-.crewInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+.crewInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 
-    margin-bottom: 19vw;
+  margin-bottom: 19vw;
 }
 
 .sidebar {
